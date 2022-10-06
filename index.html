@@ -21,6 +21,15 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
+      .fonts{
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+      }
+      .fonts2{
+        font-family: 'Fraunces';
+        font-size: 40px;
+        font-weight: 700;
+      }
       .attribution {
         font-size: 11px;
         text-align: center;
@@ -36,25 +45,33 @@
         class="row border-0 shadow rounded"
         style="width: 60%; margin-left: 20%"
       >
-        <div class="col-md-6">
-          <img
-            src="images/image-product-desktop.jpg"
-            alt="Sample image"
-            class="img-fluid"
-          />
-        </div>
-        <div class="col-md-6 col-lg-6 col-xl-6">
-          <h5 class="mt-4 text-secondary">PERFUME</h5>
-          <h1 class="mt-3">Gabrielle Essence Eau De Parfum</h1>
-          <p>
+        <div
+          class="col-md-6"
+          style="
+            background: url('images/image-product-desktop.jpg');
+            background-size: cover;
+            border-radius: 10px 0px 0px 10px;
+          "
+        ></div>
+        <div
+          class="col-sm-12"
+          style="
+            background: url('images/image-product-mobile.jpg');
+            background-size: cover;
+            border-radius: 10px 0px 0px 10px;
+          "
+        ></div>
+        <div class="col-md-6 col-sm-12">
+          <h5 class="mt-4 text-secondary fonts">PERFUME</h5>
+          <h1 class="mt-3 text-dark fonts2">Gabrielle Essence Eau De Parfum</h1>
+          <p class="text-secondary fonts">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
-          <h1 class="d-inline text-success">$149.99</h1>
-          <span class="ms-5"><del>$169.99</del></span>
-          <div class="mt-5 text-center">
-            <a class="btn btn-success btn-lg btn-block" href="#"
-              >
+          <h1 class="d-inline text-success fonts2">$149.99</h1>
+          <span class="ms-5 text-secondary fonts"><del>$169.99</del></span>
+          <div class="mt-5 mb-3 text-center">
+            <button class="btn w-100 btn-success btn-lg btn-block fonts">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -67,7 +84,7 @@
                   d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
                 />
               </svg>
-              Add to Cart</a
+              Add to Cart</
             >
           </div>
         </div>
